@@ -1,3 +1,4 @@
+# Begin here
 import os
 import json
 import requests
@@ -10,7 +11,7 @@ headers = {
 def slugify_peptide(peptide_name):
     return peptide_name.lower().replace(" ", "_")
 
-def fetch_product_names_by_peptide(peptide_name, max_pages=20):
+def slugs_generator(peptide_name, max_pages=20):
     base_url = "https://incidecoder.com/search/product"
     all_products = []
 
@@ -58,7 +59,7 @@ def main():
     peptide_name = input("🔍 Enter a peptide name to search: ").strip()
     print(f"\n🔎 Searching for products containing: {peptide_name}\n")
 
-    products = fetch_product_names_by_peptide(peptide_name)
+    products = slugs_generator(peptide_name)
 
     if not products:
         print("⚠️ No products found.")
