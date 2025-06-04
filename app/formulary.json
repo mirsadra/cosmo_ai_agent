@@ -1,0 +1,65 @@
+{
+  "basic_cream": {
+    "id": "basic_cream",
+    "name": "Basic Moisturizing Cream",
+    "product_type": "cream",
+    "base_ingredients": [
+      {
+        "ingredient_id": "water",
+        "concentration": 65.0
+      },
+      {
+        "ingredient_id": "glycerin",
+        "concentration": 5.0
+      },
+      {
+        "ingredient_id": "cetyl_alcohol",
+        "concentration": 3.0
+      },
+      {
+        "ingredient_id": "phenoxyethanol",
+        "concentration": 0.5
+      }
+    ],
+    "variable_ingredients": [
+      "hyaluronic_acid",
+      "vitamin_c"
+    ],
+    "instructions": "Heat oil and water phases separately to 70\u00b0C. Add oil phase to water phase with mixing.",
+    "typical_cost_range": {
+      "min": 8.5,
+      "max": 25.0
+    },
+    "stability_notes": null
+  },
+  "anti_aging_serum": {
+    "id": "anti_aging_serum",
+    "name": "Anti-Aging Serum",
+    "product_type": "serum",
+    "base_ingredients": [
+      {
+        "ingredient_id": "water",
+        "concentration": 80.0
+      },
+      {
+        "ingredient_id": "glycerin",
+        "concentration": 10.0
+      },
+      {
+        "ingredient_id": "phenoxyethanol",
+        "concentration": 0.3
+      }
+    ],
+    "variable_ingredients": [
+      "hyaluronic_acid",
+      "matrixyl_3000",
+      "argireline"
+    ],
+    "instructions": "Mix all ingredients at room temperature. Adjust pH to 6.0-6.5.",
+    "typical_cost_range": {
+      "min": 35.0,
+      "max": 120.0
+    },
+    "stability_notes": null
+  }
+}

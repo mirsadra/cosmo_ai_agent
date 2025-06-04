@@ -1,5 +1,6 @@
 """
 Pydantic Models for Cosmetic Formulation AI Agent
+models.py
 Labrugis Ltd. 2025
 """
 

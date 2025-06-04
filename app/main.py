@@ -1,6 +1,7 @@
 """
 Cosmetic Formulation AI Agent - Main FastAPI Application
-Designed for Labrugis Ltd.
+main.py
+Labrugis Ltd. 2025
 """
 
 from fastapi import FastAPI, HTTPException, Depends
@@ -8,7 +9,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Optional, Dict, Any
 import uvicorn
 from contextlib import asynccontextmanager
-
 from models import (
     FormulationRequest, 
     FormulationResponse, 

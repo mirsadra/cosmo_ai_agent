@@ -1,0 +1,24 @@
+{
+  "prohibited_substances": [
+    "hydroquinone",
+    "mercury_compounds",
+    "lead_compounds"
+  ],
+  "restricted_concentrations": {
+    "phenoxyethanol": 1.0,
+    "benzyl_alcohol": 1.0,
+    "salicylic_acid": 2.0
+  },
+  "cpnp_requirements": {
+    "safety_assessment": true,
+    "product_information_file": true,
+    "responsible_person": true
+  },
+  "labeling_requirements": [
+    "INCI names in descending order",
+    "Warnings and precautions",
+    "Batch number and expiry date",
+    "Net content",
+    "Function of product"
+  ]
+}

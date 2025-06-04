@@ -1,0 +1,39 @@
+{
+  "matrixyl_3000": {
+    "id": "matrixyl_3000",
+    "name": "Matrixyl 3000",
+    "sequence": "Pal-GHK + Pal-GQPR",
+    "molecular_weight": 578.73,
+    "function": "anti-aging",
+    "stability_ph_range": {
+      "min": 5.0,
+      "max": 7.0
+    },
+    "max_concentration": 8.0,
+    "cost_per_gram": 125.0,
+    "efficacy_studies": [
+      "Reduces wrinkles by 45% in 8 weeks",
+      "Increases collagen synthesis by 117%"
+    ],
+    "novel_ingredient": false,
+    "safety_assessment_required": true
+  },
+  "argireline": {
+    "id": "argireline",
+    "name": "Argireline",
+    "sequence": "Ac-EEMQRR-NH2",
+    "molecular_weight": 888.99,
+    "function": "expression_lines",
+    "stability_ph_range": {
+      "min": 4.0,
+      "max": 8.0
+    },
+    "max_concentration": 10.0,
+    "cost_per_gram": 280.0,
+    "efficacy_studies": [
+      "Reduces expression lines by 17% in 15 days"
+    ],
+    "novel_ingredient": false,
+    "safety_assessment_required": true
+  }
+}
